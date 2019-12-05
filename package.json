@@ -82,6 +82,6 @@
     "ascii-art": "^1.5.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node bot.js"
   }
 }
