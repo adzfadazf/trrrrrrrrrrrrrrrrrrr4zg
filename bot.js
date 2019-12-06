@@ -11,4 +11,4 @@ client.on('ready', () => {
   channel.join()
 });
 
-client.login('NjI3ODgxODAxNzg3ODk5OTA1.Xepj4w.BI9baGMzckUQwv2d03JPfRAibuM')
+client.login(process.env.BOT_TOKEN);
