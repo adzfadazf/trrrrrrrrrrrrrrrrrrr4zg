@@ -2,12 +2,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('ready', () => {
-  let channel = client.channels.get('442803314531500053');
-  channel.join()
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY
