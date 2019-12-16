@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 
   client.on('ready', () => {
-  let channel = client.channels.get('627881624440275015');
+  let channel = client.channels.get('529746544975544342');
   channel.join()
 });
 
