@@ -1,11 +1,4 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version":"1.0.0",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
   "dependencies": {
     "and": "0.0.3",
     "anti-spam": "^0.2.7",
