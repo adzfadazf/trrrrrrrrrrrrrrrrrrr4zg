@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-var tokens = ["BOT_TOKEN", "BOT_TOKEN", "token3"]
+var tokens = ["BOT_TOKEN", "BOT_TOKEN2", "token3"]
 
 tokens.forEach(t => {
 let client = new Discord.Client();client.on('ready', () => {
