@@ -1,9 +1,7 @@
 const Discord = require('discord.js');
-var tokens = ["BOT_TOKEN", "BOT_TOKEN2", "token3"]
+const client = new Discord.Client();
 
-tokens.forEach(t => {
-let client = new Discord.Client();client.on('ready', () => {
-   console.log(`Logged in as ${client.user.tag}!`);
+console.log(`Logged in as ${client.user.tag}!`);
 });
 
 
@@ -18,3 +16,4 @@ let client = new Discord.Client();client.on('ready', () => {
 });
 
 
+client.login(process.env.BOT_TOKEN);
