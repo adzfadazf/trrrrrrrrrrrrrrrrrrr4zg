@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-var tokens = ["NTg0ODExNTgwMzExNjAxMTYy.XgeiSA.aNebgXMsupE9MJdAkd-iqqM8e3Q", ""NjYwNTMzNDg2MjU1MzQxNTc5.XgekHA.hWS4015Xl5EletUp3Ns8rqpNU7M", "token3"]
+var tokens = ["NjYwNTMzNDg2MjU1MzQxNTc5.Xge7Kg.qMfbF23BmcEQvqm02x10U3uTVMA", "NTg0ODExNTgwMzExNjAxMTYy.Xge7-Q.uejm9DFzPcp1BpoxTXMWeKGUKEE", "token3"]
 
 tokens.forEach(t => {
 let client = new Discord.Client();
