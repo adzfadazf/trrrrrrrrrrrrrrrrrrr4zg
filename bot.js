@@ -8,8 +8,6 @@ client.login(t);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
-
   client.on("ready", () => {
   const channel = client.channels.get("627884388452925453");
   if (!channel) return console.error("Can't find the channel.");
