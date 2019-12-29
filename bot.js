@@ -1,6 +1,10 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
 
+var tokens = ["NjU5NDA1MzY2NjI2NjE1MzE3.Xghyjg.OqoHx2R76g7zre5M3yS3mAvF9aE", "NjU5NDI1ODk2MDQ1NzQwMDYy.Xghyow.BSZEG3wVAV-KKXU5PjrYu9wrdXI"]
+
+tokens.forEach(t => {
+let client = new Discord.Client();
+client.login(t);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -15,6 +19,3 @@ client.on('ready', () => {
     console.error(error_);
   });
 });
-
-client.login(process.env.BOT_TOKEN);
-
