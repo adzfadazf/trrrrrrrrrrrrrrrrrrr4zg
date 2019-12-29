@@ -15,5 +15,5 @@ client.on('ready', () => {
     console.log("Connected.[Done]");
   }).catch(error_ => {
     console.error(error_);
-  });
-})
+  }
+});
