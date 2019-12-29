@@ -16,3 +16,4 @@ client.on('ready', () => {
   }).catch(error_ => {
     console.error(error_);
   });
+})
