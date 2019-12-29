@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 
 client.on("ready", () => {
-  const channel = client.channels.get("529746544975544342");
+  const channel = client.channels.get("627884388452925453");
   if (!channel) return console.error("Can't find the channel.");
   channel.join().then(connection => {
     console.log("Connected.[Done]");
@@ -11,4 +11,5 @@ client.on("ready", () => {
     console.error(error_);
   });
 });
-client.login("NTg0ODExNTgwMzExNjAxMTYy.XghyXw.Fb1BYdoYyQTtA0S3uOhuso8lgS8")
+client.login("NjU5NDA1MzY2NjI2NjE1MzE3.XgjZfg.V5a_GNyI_jBkr19BOhZRASmWCcs")
+client2.login("NjU5NDI1ODk2MDQ1NzQwMDYy.Xgjb6g.o5VjsWULq7kd--pthJA1Lb8z0zA")
