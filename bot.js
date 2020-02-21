@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on("ready", () => {
-  const channel = client.channels.get("679382016126615562");
+  const channel = client.channels.get("451194313011888128");
   if (!channel) return console.error("Can't find the channel.");
   channel.join().then(connection => {
     console.log("Connected.[Done]");
