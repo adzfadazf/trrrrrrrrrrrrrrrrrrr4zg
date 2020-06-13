@@ -5,13 +5,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on("ready", () => {
-  const channel = client.channels.get("442819843239051284");
-  if (!channel) return console.error("Can't find the channel.");
-  channel.join().then(connection => {
-    console.log("Connected.[Done]");
-  }).catch(error_ => {
-    console.error(error_);
-  });
+client.on('ready', () => {
+  let channel = client.channels.get('442819843239051284');
+  channel.join()
 });
 client.login(process.env.BOT_TOKEN);
